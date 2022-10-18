@@ -1,0 +1,28 @@
+@import "src/assets/styles/variables.scss";
+
+.catImageDisplay {
+  max-height: $catImageHeight;
+  position: relative;
+  max-width: $catMaxWidth;
+
+  &_img {
+    height: $catImageHeight;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  &_text {
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 5%;
+    transform: translateX(-50%);
+    font-size: $catFontSize_lg;
+    color: $catWhite;
+    text-shadow: $catShadow;
+  }
+}
+
+.MuiBox-root {
+  margin: auto;
+}

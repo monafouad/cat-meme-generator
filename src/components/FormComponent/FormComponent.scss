@@ -1,0 +1,35 @@
+@import "src/assets/styles/variables.scss";
+
+.catGenerator {
+  font-family: $catFontFamily;
+  text-align: left;
+  margin-bottom: $catMargin_40;
+  max-width: $catMaxWidth;
+
+  &_title {
+    font-size: $catFontSize_md;
+    font-weight: $catFontWeight_400;
+    margin: $catZero;
+  }
+
+  &_subtitle {
+    font-size: $catFontSize_sm;
+    font-weight: $catFontWeight_400;
+    margin: $catZero;
+    line-height: $catLineHeight;
+  }
+  &_btn {
+    height: 22px !important;
+    padding: 4px 10px !important;
+  }
+
+  .MuiButtonBase-root {
+    background: $catBlue;
+    color: $catWhite;
+    font-weight: $catFontWeight_500;
+    font-size: $catFontSize_xs;
+    height: 28px;
+    padding: 4px 10px;
+    letter-spacing: 0.5;
+  }
+}

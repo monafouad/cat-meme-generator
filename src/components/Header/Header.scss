@@ -1,0 +1,10 @@
+@import "src/assets/styles/variables.scss";
+
+.catHeader {
+  background-color: $catBlack;
+  background-image: url("../../assets/images/cat.jpeg");
+  background-repeat: no-repeat;
+  background-position: center 54%;
+  height: $catHeaderHeight;
+  margin-bottom: $catMargin_40;
+}
