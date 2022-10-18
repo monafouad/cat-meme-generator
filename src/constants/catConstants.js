@@ -8,7 +8,7 @@ export const CAT_REQUEST_URL_SAYS = "https://cataas.com/cat/says";
 
 //Texts
 export const CAT_GENERATOR_BTN_TEXT = "Create meme";
-export const CAT_GENERATOR_TITLE = "Cat meme generator";
+export const CAT_GENERATOR_TITLE = "Cat meme Generator";
 export const CAT_GENERATOR_SUBTITLE =
   "You could use this generator to create your own cat meme!";
 export const CAT_FILTER_DROPDOWN_TEXT = "Filter on tag";
