@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import * as React from "react";
+import Container from "@mui/material/Container";
+import Box from "@mui/material/Box";
+import Header from "./components/Header/Header";
+import MemeGenerator from "./components/MemeGenerator/MemeGenerator";
+import "./App.scss";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container maxWidth="xl" sx={{ p: 0 }}>
+      <Header />
+      <Box maxWidth="lg" alignSelf="center">
+        <MemeGenerator sz={{ mt: 4 }} />
+      </Box>
+    </Container>
   );
 }
-
-export default App;
