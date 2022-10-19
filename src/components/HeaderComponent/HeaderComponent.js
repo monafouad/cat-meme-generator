@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import "./Header.scss";
+import "./HeaderComponent.scss";
 
-class Header extends Component {
+class HeaderComponent extends Component {
   render() {
     return <div className="catHeader"></div>;
   }
 }
 
-export default Header;
+export default HeaderComponent;
