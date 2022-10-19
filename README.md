@@ -11,10 +11,10 @@ Install packages
 Runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### `npm test`
+### `yarn test`
 
-To run tests
+To run tests, then select a
 
-### `npm run build`
+### `yarn run build`
 
 To build
